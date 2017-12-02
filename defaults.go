@@ -1,6 +1,6 @@
 package godash
 
-// Recursively merges maps from left to right, without overriding existing keys
+// Defaults recursively merges maps from left to right, without overriding existing keys
 func Defaults(maps ...map[string]interface{}) map[string]interface{} {
 
 	// Initialize a return map
