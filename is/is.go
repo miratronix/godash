@@ -106,16 +106,6 @@ func UInt64(val interface{}) bool {
 	}
 }
 
-// UIntPointer checks if the type of the argument is uintptr
-func UIntPointer(val interface{}) bool {
-	switch val.(type) {
-	case uintptr:
-		return true
-	default:
-		return false
-	}
-}
-
 // Float32 checks if the type of the argument is float32
 func Float32(val interface{}) bool {
 	switch val.(type) {
